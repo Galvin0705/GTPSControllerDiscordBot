@@ -13,5 +13,8 @@
  "maintText": "Server Maintenance!",
  "betaIpServer": "127.0.0.1",
  "betaPortServer": "17092",
- "metaServer": "localhost"
+ "metaServer": "localhost",
+  "httpwebhook": "",//your webhook
+ "httpavatar": "https://avatars.githubusercontent.com/u/56192597?s=460&u=201c9f1153edd28ab216c9848c43ee81f9953c5d&v=4",
+ "httpusername": "Login-Logs"
 }
