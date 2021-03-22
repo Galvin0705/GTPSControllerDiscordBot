@@ -38,8 +38,8 @@ const httpServer = http.createServer((req, res) => {
 		}
 	}
 	else {
-		res.write("GTPSControllerDiscordBot By GuckTube YT")
-		return res.end()
+		req.connection.destroy();
+		//reduce overload in http
 	}
 })
 
